@@ -1,0 +1,11 @@
+<package>
+  <name>ompl_catkin</name>
+  <version>0.0.0</version>
+  <description>Wrapper for the latest version of OMPL.</description>
+  <maintainer email="helen.oleynikova@mavt.ethz.ch">Helen Oleynikova</maintainer>
+
+  <license>See package</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+</package>
