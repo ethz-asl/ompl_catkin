@@ -9,7 +9,7 @@ include(ExternalProject)
 file(MAKE_DIRECTORY ${CATKIN_DEVEL_PREFIX}/include)
 
 ExternalProject_Add(ompl_src
-  GIT_REPOSITORY https://github.com/lugiger/ompl/
+  GIT_REPOSITORY https://github.com/ompl/ompl.git
   UPDATE_COMMAND ""
   CMAKE_ARGS -DCMAKE_INSTALL_PREFIX:PATH=${CATKIN_DEVEL_PREFIX}
   -DCMAKE_INSTALL_LIBDIR:PATH=${CATKIN_DEVEL_PREFIX}/lib/
